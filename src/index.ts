@@ -1,6 +1,8 @@
 import { ApolloServer } from "apollo-server";
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core"; //1
 
+
+//https://studio.apollographql.com/sandbox/explorer
 import { schema } from "./schema";
 export const server = new ApolloServer({
     schema,
