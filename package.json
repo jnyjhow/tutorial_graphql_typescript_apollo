@@ -1,6 +1,11 @@
 {
   "name": "tutorial_graphql_typescript_apollo",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x",
+    "npm": "8.x",
+    "yarn": "1.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
