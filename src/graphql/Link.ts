@@ -1,7 +1,7 @@
 import { extendType, nonNull, objectType, stringArg, intArg, inputObjectType, enumType, arg, list } from "nexus";
 import { Prisma } from "@prisma/client"
 
-//
+//teste heroku
 export const LinkOrderByInput = inputObjectType({
     name: "LinkOrderByInput",
     definition(t) {
